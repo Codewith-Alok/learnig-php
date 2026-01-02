@@ -39,6 +39,11 @@
     $person1 = new Person("John", "Doe");
     echo var_dump($person1 . " <br>");  
 
-    
+      echo "<br>";
+
+    // Resource
+    $file = fopen("datatypes.php", "r");    
+    echo var_dump($file . " <br>");
+    fclose($file);
 
 ?>
