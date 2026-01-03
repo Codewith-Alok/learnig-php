@@ -50,7 +50,7 @@
 
 //what is comments in the code and why it is used ? 
 
-//Comments in code are human-readable notes ignored by the computer (compiler/interpreter)
-//that explain what the code does, making it easier for developers to understand, maintain, and debug. 
-//They clarify complex logic, describe function purposes,
-//and help collaborate, using language-specific symbols like //, #, or /* */ to denote text that isn't executed. 
+ /* Comments in code are human-readable notes ignored by the computer (compiler/interpreter)
+that explain what the code does, making it easier for developers to understand, maintain, and debug. 
+They clarify complex logic, describe function purposes,
+and help collaborate, using language-specific symbols like //, #, or /* */ to denote text that isn't executed. */
