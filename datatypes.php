@@ -1,3 +1,5 @@
+/*A data type in PHP is a classification that tells the computer what kind of data a variable holds and how it should be handled. PHP is a dynamically typed language, meaning you don't need to explicitly declare the data type of a variable; the interpreter determines it at runtime based on the value assigned */
+
 <?php 
     // String
  $name = 'This is a string variable.<br>';
