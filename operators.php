@@ -48,4 +48,22 @@ $l = array("apple", "banana");
 $m = array("cherry", "date");
 $n = $l + $m; // Union of arrays
 print_r($n);
+
+
+
+// Define the ten arrays
+$array1 = ['a' => 1, 'b' => 2];
+$array2 = ['c' => 3, 'd' => 4];
+$array3 = ['e' => 5, 'f' => 6];
+// ... define the remaining 7 arrays ...
+$array10 = ['s' => 19, 't' => 20];
+
+// Union all ten arrays
+// This approach is not as clean with ten variables in one line as array_merge
+$unioned_array = $array1 + $array2 + $array3 /* + ... + */ + $array10; 
+
+// Display the result
+print_r($unioned_array);
 ?>
+
+
